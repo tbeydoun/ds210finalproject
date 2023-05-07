@@ -1,0 +1,19 @@
+[package]
+name = "proj"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+csv = "1.1"
+petgraph = "0.6.0"
+float-cmp = "0.8.0"
+nalgebra = "0.29"
+pathfinding = "2.0"
+ndarray = "0.15.4"
+ordered-float = "2.0"
+anyhow = "1.0"
+fixedbitset = "0.4.0"
+[dev-dependencies]
+rstest = "0.11.0"
